@@ -4,7 +4,7 @@ go 1.21.2
 
 require (
 	github.com/GoogleCloudPlatform/functions-framework-go v1.8.0
-	github.com/mytodolist1/be_p3 v0.0.5
+	github.com/mytodolist1/be_p3 v0.0.6
 )
 
 require (

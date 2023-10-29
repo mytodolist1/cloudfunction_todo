@@ -10,7 +10,7 @@ import (
 )
 
 func init() {
-	functions.HTTP("Mytodolist", MytodolistPost)
+	functions.HTTP("MytodolistPost", MytodolistPost)
 }
 
 func MytodolistPost(w http.ResponseWriter, r *http.Request) {

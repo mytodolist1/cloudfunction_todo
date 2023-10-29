@@ -1,4 +1,4 @@
-package cfp3
+package cloudfunction_todo
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 
 	"github.com/GoogleCloudPlatform/functions-framework-go/functions"
 
-	todo "github.com/mytodolist1/be_p3"
+	todo "github.com/mytodolist1/be_p3/modul"
 )
 
 func init() {

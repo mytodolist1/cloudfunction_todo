@@ -10,10 +10,10 @@ import (
 )
 
 func init() {
-	functions.HTTP("MytodolistPostLogin", MytodolistPostLogin)
+	functions.HTTP("MytodolistLogin", MytodolistLogin)
 }
 
-func MytodolistPostLogin(w http.ResponseWriter, r *http.Request) {
+func MytodolistLogin(w http.ResponseWriter, r *http.Request) {
 	// Set CORS headers for the preflight request
 	if r.Method == http.MethodOptions {
 		w.Header().Set("Access-Control-Allow-Origin", "https://mytodolist1.github.io")

@@ -10,10 +10,10 @@ import (
 )
 
 func init() {
-	functions.HTTP("MytodolistPost", MytodolistPost)
+	functions.HTTP("MytodolistPostLogin", MytodolistPostLogin)
 }
 
-func MytodolistPost(w http.ResponseWriter, r *http.Request) {
+func MytodolistPostLogin(w http.ResponseWriter, r *http.Request) {
 	// Set CORS headers for the preflight request
 	if r.Method == http.MethodOptions {
 		w.Header().Set("Access-Control-Allow-Origin", "https://mytodolist1.github.io")
@@ -25,6 +25,6 @@ func MytodolistPost(w http.ResponseWriter, r *http.Request) {
 	}
 	// Set CORS headers for the main request.
 	w.Header().Set("Access-Control-Allow-Origin", "https://mytodolist1.github.io")
-	fmt.Fprintf(w, todo.GCFPostHandler("PASETOPRIVATEKEY", "MONGOSTRING", "mytodolist", "user", r))
+	fmt.Fprintf(w, todo.GCFHandlerLogIn("PASETOPRIVATEKEY", "MONGOSTRING", "mytodolist", "user", r))
 
 }

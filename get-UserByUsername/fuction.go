@@ -15,5 +15,5 @@ func init() {
 
 func MytodolistGetUser(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Access-Control-Allow-Origin", "https://mytodolist1.github.io")
-	fmt.Fprintf(w, todo.GCFHandler("MONGOSTRING", "mytodolist", "user", "username"))
+	fmt.Fprintf(w, todo.GCFHandlerGetUser("MONGOSTRING", "mytodolist", "user", "username"))
 }

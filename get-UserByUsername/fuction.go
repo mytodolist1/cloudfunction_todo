@@ -10,10 +10,10 @@ import (
 )
 
 func init() {
-	functions.HTTP("MytodolistGetUserByUsername", MytodolistGetUserByUsername)
+	functions.HTTP("MytodolistGetUser", MytodolistGetUser)
 }
 
-func MytodolistGetUserByUsername(w http.ResponseWriter, r *http.Request) {
+func MytodolistGetUser(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Access-Control-Allow-Origin", "https://mytodolist1.github.io")
 	fmt.Fprintf(w, todo.GCFHandler("MONGOSTRING", "mytodolist", "user", "username"))
 }

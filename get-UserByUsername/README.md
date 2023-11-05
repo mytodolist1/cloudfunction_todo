@@ -1,1 +1,1 @@
-# Google Cloud Function GET
+# Cloud Function GET User By Username

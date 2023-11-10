@@ -25,5 +25,5 @@ func MytodolistDelUser(w http.ResponseWriter, r *http.Request) {
 	}
 	// Set CORS headers for the main request.
 	w.Header().Set("Access-Control-Allow-Origin", "https://mytodolist1.github.io")
-	fmt.Fprintf(w, todo.GCFHandlerDeleteUser("MONGOSTRING", "mytodolist", "user", r))
+	fmt.Fprintf(w, todo.GCFHandlerDeleteUser("PASETOPRIVATEKEY", "MONGOSTRING", "mytodolist", "user", r))
 }

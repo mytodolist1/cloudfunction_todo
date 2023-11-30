@@ -27,5 +27,5 @@ func MytodolistInsertTodo(w http.ResponseWriter, r *http.Request) {
 	// Set CORS headers for the main request.
 	// w.Header().Set("Access-Control-Allow-Origin", "https://mytodolist1.github.io")
 	w.Header().Set("Access-Control-Allow-Origin", "https://mytodolist.my.id")
-	fmt.Fprintf(w, todo.GCFHandlerInsertTodo("PASETOPUBLICKEY", "MONGOSTRING", "mytodolist", "user", r))
+	fmt.Fprintf(w, todo.GCFHandlerInsertTodo("PASETOPUBLICKEY", "MONGOSTRING", "mytodolist", "todo", r))
 }

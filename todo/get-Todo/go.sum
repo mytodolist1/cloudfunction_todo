@@ -867,8 +867,10 @@ github.com/montanaflynn/stats v0.0.0-20171201202039-1bf9dbcd8cbe/go.mod h1:wL8QJ
 github.com/montanaflynn/stats v0.6.6/go.mod h1:etXPPgVO6n31NxCd9KQUMvCM+ve0ruNzt6R8Bnaayow=
 github.com/montanaflynn/stats v0.7.1 h1:etflOAAHORrCC44V+aR6Ftzort912ZU+YLiSTuV8eaE=
 github.com/montanaflynn/stats v0.7.1/go.mod h1:etXPPgVO6n31NxCd9KQUMvCM+ve0ruNzt6R8Bnaayow=
-github.com/mytodolist1/be_p3 v0.2.814 h1:sJQ7rnNODA4V+i8p0475F4bRRAbMnwp3wqfeEzKQ1nU=
-github.com/mytodolist1/be_p3 v0.2.814/go.mod h1:/ntvP8Wq2vrUc9oforhOLOrh6MtE5uUh2az0Xw/OG0w=
+github.com/mytodolist1/be_p3 v0.2.826 h1:9fyrRYZNwLi4yd5RakVuVr3GLhug3/i5V0BZ++Y6JWw=
+github.com/mytodolist1/be_p3 v0.2.826/go.mod h1:iKOnHkfMjKENTvH74+YSCi0USqPgW2xk3Bh/QziuWiM=
+github.com/mytodolist1/be_p3 v0.2.827 h1:iRxwWRgwCxJT6j7EDG6Ad3oU+MOY4QX5lIOJraq7rfw=
+github.com/mytodolist1/be_p3 v0.2.827/go.mod h1:iKOnHkfMjKENTvH74+YSCi0USqPgW2xk3Bh/QziuWiM=
 github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e/go.mod h1:zD1mROLANZcx1PVRCS0qkT7pwLkGfwJo4zjcN/Tysno=
 github.com/phpdave11/gofpdf v1.4.2/go.mod h1:zpO6xFn9yxo3YLyMvW8HcKWVdbNqgIfOOp2dXMnm1mY=
 github.com/phpdave11/gofpdi v1.0.12/go.mod h1:vBmVV0Do6hSBHC8uKUQ71JGW+ZGQq74llk/7bXwjDoI=

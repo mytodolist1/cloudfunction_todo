@@ -19,7 +19,7 @@ func MytodolistUpdateUser(w http.ResponseWriter, r *http.Request) {
 		// w.Header().Set("Access-Control-Allow-Origin", "https://mytodolist1.github.io")
 		w.Header().Set("Access-Control-Allow-Origin", "https://mytodolist.my.id")
 		w.Header().Set("Access-Control-Allow-Methods", "PUT")
-		w.Header().Set("Access-Control-Allow-Headers", "Content-Type")
+		w.Header().Set("Access-Control-Allow-Headers", "Content-Type,Authorization,Token")
 		w.Header().Set("Access-Control-Max-Age", "3600")
 		w.WriteHeader(http.StatusNoContent)
 		return

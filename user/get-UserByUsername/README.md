@@ -1,1 +1,0 @@
-# Cloud Function GET User By Username

@@ -1,1 +1,0 @@
-# Cloud Function Register User
